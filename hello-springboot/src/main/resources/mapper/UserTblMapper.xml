@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.hello_springboot.mapper.UserTblMapper">
+<sql id="insertUserTbl">
+        USER_CD,        
+        USER_PWD,       
+        COMPANY_ID,     
+        AUTHORITY,      
+        FIRST_NAME_KANA,FIRST_NAME,     
+        LAST_NAME_KANA, LAST_NAME,      
+        SEX,            
+        COUNTRY_ZIP,    
+        USER_TEL,       
+        USER_MAIL,      
+        USER_PHOTO,     
+        REGIST_DATE,    
+        REGIST_USER,    
+        UPDATE_DATE,    
+        USER_STATUS     
+        </sql>
+
+
+<insert id="insertUserInfo" parameterType="com.example.hello_springboot.DTO.UserTblEntity">
+    INSERT INTO
+    user_tbl
+    (
+    <include refid="insertUserTbl"/>
+    )
+    VALUES
+    (
+    DEFAULT, #{pwd}, #{companyId}, #{authority},
+    #{firstNameKana}, #{firstName},
+    #{lastNameKana}, #{lastName}, #{sex},
+    #{countryZip}, #{userTel},
+    #{userMail}, #{photoAddress},
+    CURRENT_TIMESTAMP(0), 'SYSTEM', CURRENT_TIMESTAMP(0), DEFAULT
+    )
+</insert>
+<select id="selectCountByPhone" parameterType="String" resultType="int">
+	SELECT COUNT(USER_TEL)
+	FROM user_tbl
+	WHERE  TRIM(USER_TEL) = TRIM(#{userTel})
+</select>
+</mapper>
+
