@@ -44,9 +44,6 @@ public class UserTblEntity implements Serializable {
     @Transient
     private String repwd;  // 对应 Postman 传入的 "repwd"，不映射到数据库
 
-   
-   
-
     @Column(name = "FIRST_NAME_KANA")
     private String firstNameKana;
 
