@@ -22,6 +22,172 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "USER_TBL") // JPA 映射的表名
 public class UserTblEntity implements Serializable {
+	public Long getUserCd() {
+		return userCd;
+	}
+
+	public void setUserCd(Long userCd) {
+		this.userCd = userCd;
+	}
+
+	public String getAuthority() {
+		return authority;
+	}
+
+	public void setAuthority(String authority) {
+		this.authority = authority;
+	}
+
+	public String getCompanyId() {
+		return companyId;
+	}
+
+	public void setCompanyId(String companyId) {
+		this.companyId = companyId;
+	}
+
+	public String getUserPwd() {
+		return userPwd;
+	}
+
+	public void setUserPwd(String userPwd) {
+		this.userPwd = userPwd;
+	}
+
+	public String getPwd() {
+		return pwd;
+	}
+
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+
+	public String getRepwd() {
+		return repwd;
+	}
+
+	public void setRepwd(String repwd) {
+		this.repwd = repwd;
+	}
+
+	public String getFirstNameKana() {
+		return firstNameKana;
+	}
+
+	public void setFirstNameKana(String firstNameKana) {
+		this.firstNameKana = firstNameKana;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastNameKana() {
+		return lastNameKana;
+	}
+
+	public void setLastNameKana(String lastNameKana) {
+		this.lastNameKana = lastNameKana;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public String getCountryZip() {
+		return countryZip;
+	}
+
+	public void setCountryZip(String countryZip) {
+		this.countryZip = countryZip;
+	}
+
+	public String getUserTel() {
+		return userTel;
+	}
+
+	public void setUserTel(String userTel) {
+		this.userTel = userTel;
+	}
+
+	public String getUserMail() {
+		return userMail;
+	}
+
+	public void setUserMail(String userMail) {
+		this.userMail = userMail;
+	}
+
+	public String getUserPhoto() {
+		return userPhoto;
+	}
+
+	public void setUserPhoto(String userPhoto) {
+		this.userPhoto = userPhoto;
+	}
+
+	public String getPhotoAddress() {
+		return photoAddress;
+	}
+
+	public void setPhotoAddress(String photoAddress) {
+		this.photoAddress = photoAddress;
+	}
+
+	public LocalDateTime getRegistDate() {
+		return registDate;
+	}
+
+	public void setRegistDate(LocalDateTime registDate) {
+		this.registDate = registDate;
+	}
+
+	public String getRegistUser() {
+		return registUser;
+	}
+
+	public void setRegistUser(String registUser) {
+		this.registUser = registUser;
+	}
+
+	public LocalDateTime getUpdateDate() {
+		return updateDate;
+	}
+
+	public void setUpdateDate(LocalDateTime updateDate) {
+		this.updateDate = updateDate;
+	}
+
+	public String getUserStatus() {
+		return userStatus;
+	}
+
+	public void setUserStatus(String userStatus) {
+		this.userStatus = userStatus;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	private static final long
+	serialVersionUID=1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
