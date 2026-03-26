@@ -1,6 +1,6 @@
 package com.example.hello_springboot.config.AdminExtractionBatch;
 
-import com.example.hello_springboot.entity.UserTblEntity;
+import com.example.hello_springboot.entity.UserTblEntityIn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.configuration.annotation.StepScope;
@@ -34,7 +34,7 @@ public class UserPreserveItemWriter {
      */
     @Bean
     @StepScope  // 确保每次Job执行时都创建新的Writer实例,避免状态污染
-    public FlatFileItemWriter<UserTblEntity> csvUserWriter() {
+    public FlatFileItemWriter<UserTblEntityIn> csvUserWriter() {
         // ========== 第一部分: Bean创建开始标记 ==========
         log.info("========== [csvUserWriter] StepScope Bean 创建开始 ==========");
 
@@ -95,7 +95,7 @@ public class UserPreserveItemWriter {
         log.info("[Writer配置] header = UserCD,CompanyID,Authority,FirstName,LastName,Email,RegistDate,Status");  // CSV表头内容
 
         // ========== 第十部分: 使用Builder模式构建FlatFileItemWriter ==========
-        FlatFileItemWriter<UserTblEntity> writer = new FlatFileItemWriterBuilder<UserTblEntity>()
+        FlatFileItemWriter<UserTblEntityIn> writer = new FlatFileItemWriterBuilder<UserTblEntityIn>()
                 .name("userItemWriter")  // 设置Writer的名称,用于日志和监控
                 .resource(new FileSystemResource(fullPath))  // 指定文件系统资源,封装文件路径
                 .saveState(false)  // 禁用状态保存,提高性能,适合一次性导出
