@@ -10,15 +10,38 @@ import org.springframework.data.domain.Sort;
 import com.example.hello_springboot.entity.UserTblEntity;
 import com.example.hello_springboot.repository.UserTblRepository;
 
+/**
+ * 用户数据读取器配置类
+ * 
+ * 功能: 配置从数据库读取管理员用户数据的ItemReader
+ * 数据源: UserTblRepository (Spring Data JPA)
+ * 读取条件: isAdmin = true 的用户
+ * 分页大小: 10条/页
+ * 排序: 按userCd升序
+ */
 @Configuration
 public class UserPreserveItemReader {
-	@Bean
-	public RepositoryItemReader<UserTblEntity> jpaItemReader(UserTblRepository userTblRepository) {
-		return new RepositoryItemReaderBuilder<UserTblEntity>().repository(userTblRepository) // 1. 指定 JPA 仓库
-				.name("userItemReader")  // <-- 必须加上这一行，名字可以自定义，但不能为空
-				.methodName("findByIsAdminTrue") // 2. 指定调用的方法名
-				.pageSize(10) // 3. 每页读取数量，建议与 chunk 大小一致
-				.sorts(Map.of("user_Cd", Sort.Direction.ASC)) // 4. 必须指定排序，否则分页会乱
-				.build();
-	}
+
+    /**
+     * 创建JPA Repository数据读取器
+     * 
+     * @param userTblRepository 用户表Repository（自动注入）
+     * @return 配置完成的RepositoryItemReader
+     */
+    @Bean
+    public RepositoryItemReader<UserTblEntity> jpaItemReader(UserTblRepository userTblRepository) {
+        
+        return new RepositoryItemReaderBuilder<UserTblEntity>()
+                // 指定数据源Repository
+                .repository(userTblRepository)
+                // Reader唯一标识（必须设置）
+                .name("userItemReader")
+                // 调用Repository的findByIsAdminTrue方法
+                .methodName("findByIsAdminTrue")
+                // 每页10条，建议与chunk size一致
+                .pageSize(10)
+                // 按userCd升序排列（使用Entity属性名）
+                .sorts(Map.of("USER_CD", Sort.Direction.ASC))
+                .build();
+    }
 }
