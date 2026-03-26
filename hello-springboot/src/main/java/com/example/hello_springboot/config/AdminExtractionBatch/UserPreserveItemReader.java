@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.Sort;
 
-import com.example.hello_springboot.entity.UserTblEntity;
+import com.example.hello_springboot.entity.UserTblEntityIn;
 import com.example.hello_springboot.repository.UserTblRepository;
 
 /**
@@ -29,9 +29,9 @@ public class UserPreserveItemReader {
      * @return 配置完成的RepositoryItemReader
      */
     @Bean
-    public RepositoryItemReader<UserTblEntity> jpaItemReader(UserTblRepository userTblRepository) {
+    public RepositoryItemReader<UserTblEntityIn> jpaItemReader(UserTblRepository userTblRepository) {
         
-        return new RepositoryItemReaderBuilder<UserTblEntity>()
+        return new RepositoryItemReaderBuilder<UserTblEntityIn>()
                 // 指定数据源Repository
                 .repository(userTblRepository)
                 // Reader唯一标识（必须设置）

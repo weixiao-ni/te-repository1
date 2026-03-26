@@ -5,12 +5,12 @@ package com.example.hello_springboot.config.AdminExtractionBatch;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import com.example.hello_springboot.entity.UserTblEntity;
+import com.example.hello_springboot.entity.UserTblEntityIn;
 @Component
-public class UserPreserveItemProcessor implements ItemProcessor<UserTblEntity, UserTblEntity> {
+public class UserPreserveItemProcessor implements ItemProcessor<UserTblEntityIn, UserTblEntityIn> {
 
     @Override
-    public UserTblEntity process(UserTblEntity item) throws Exception {
+    public UserTblEntityIn process(UserTblEntityIn item) throws Exception {
         // 1. 确保数据不为空
         if (item == null) return null;
 

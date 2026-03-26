@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor //(Lombok 库全参构造注解)
 @Entity
 @Table(name = "USER_TBL") // JPA 映射的表名
-public class UserTblEntity implements Serializable {
+public class UserTblEntityIn implements Serializable {
 	public Long getUserCd() {
 		return userCd;
 	}

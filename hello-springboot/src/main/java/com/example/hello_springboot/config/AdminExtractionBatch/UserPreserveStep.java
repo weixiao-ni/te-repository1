@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.PlatformTransactionManager;
 
-import com.example.hello_springboot.entity.UserTblEntity;
+import com.example.hello_springboot.entity.UserTblEntityIn;
 
 @Configuration
 public class UserPreserveStep {
@@ -18,11 +18,11 @@ public class UserPreserveStep {
     public Step builderUserPreserveStep(
             JobRepository jobRepository, 
             PlatformTransactionManager transactionManager,
-            RepositoryItemReader<UserTblEntity> jpaItemReader,
+            RepositoryItemReader<UserTblEntityIn> jpaItemReader,
             UserPreserveItemProcessor userPreserveItemProcessor, 
-            FlatFileItemWriter<UserTblEntity> flatFileItemWriter) {
+            FlatFileItemWriter<UserTblEntityIn> flatFileItemWriter) {
         return new StepBuilder("userPreserveStep", jobRepository)
-                .<UserTblEntity, UserTblEntity>chunk(10, transactionManager) 
+                .<UserTblEntityIn, UserTblEntityIn>chunk(10, transactionManager) 
                 .reader(jpaItemReader) 
                 .processor(userPreserveItemProcessor) 
                 .writer(flatFileItemWriter) 
