@@ -166,3 +166,25 @@
 2026-03-27 09:35:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
 2026-03-27 09:35:35 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1a6b2290 is alive
 2026-03-27 09:35:40 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@56cd6563 is alive
+2026-03-27 09:35:50 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@2ecf11b3 is alive
+2026-03-27 09:35:52 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@22b0fe44 is alive
+2026-03-27 09:35:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:35:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:35:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:36:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:36:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:36:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:36:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:36:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:36:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:37:05 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6af1b1ae is alive
+2026-03-27 09:37:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:37:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:37:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:37:26 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1a6b2290 is alive
+2026-03-27 09:37:32 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@56cd6563 is alive
+2026-03-27 09:37:47 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@2ecf11b3 is alive
+2026-03-27 09:37:50 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@22b0fe44 is alive
+2026-03-27 09:37:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:37:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:37:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
