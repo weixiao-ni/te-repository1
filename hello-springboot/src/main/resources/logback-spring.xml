@@ -85,9 +85,11 @@
     <!-- ================================ -->
     <!-- 默认配置（没有指定profile时使用） -->
     <!-- ================================ -->
-    <springProfile name="default">
+   <springProfile name="default">
         <root level="INFO">
             <appender-ref ref="CONSOLE" />
+            <appender-ref ref="INFO_FILE" />
+            <appender-ref ref="ERROR_FILE" />
         </root>
     </springProfile>
 </configuration>
