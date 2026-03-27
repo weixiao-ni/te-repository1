@@ -1,0 +1,168 @@
+2026-03-27 09:31:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-27 09:31:51 [restartedMain] INFO  c.e.h.HelloSpringbootApplication - Starting HelloSpringbootApplication using Java 21.0.8 with PID 9968 (C:\Users\compu\git\myLean\hello-springboot\target\classes started by compu in C:\Users\compu\git\myLean\hello-springboot)
+2026-03-27 09:31:51 [restartedMain] INFO  c.e.h.HelloSpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-27 09:31:51 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\compu\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/compu/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2026-03-27 09:31:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-27 09:31:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-27 09:31:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-27 09:31:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interface.
+2026-03-27 09:31:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-27 09:31:54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-27 09:31:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-27 09:31:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-03-27 09:31:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-27 09:31:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2669 ms
+2026-03-27 09:31:54 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - Class oracle.jdbc.OracleDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42a2b2db
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - credentials.....................com.zaxxer.hikari.util.Credentials@dd493a0
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."oracle.jdbc.OracleDriver"
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverride...............none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:oracle:thin:@localhost:1521/FREEPDB1
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................120000
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................5
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - username........................"ROOT"
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2026-03-27 09:31:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-27 09:31:54 [restartedMain] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (6e73da35-88ac-4c5c-9e30-de95c967e7a9)
+2026-03-27 09:31:55 [restartedMain] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (6e73da35-88ac-4c5c-9e30-de95c967e7a9)
+2026-03-27 09:31:55 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2ecf11b3
+2026-03-27 09:31:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-27 09:31:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=1/10, idle=1/5, active=0, waiting=0)
+2026-03-27 09:31:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=1/10, idle=1/5, active=0, waiting=0)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (8f8740d3-c80c-4b6a-8e0b-e6ef4986664b)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (8f8740d3-c80c-4b6a-8e0b-e6ef4986664b)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1a6b2290
+2026-03-27 09:31:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2/10, idle=2/5, active=0, waiting=0)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (ec38d404-1c4f-46fb-a279-9c2d18b49fd7)
+2026-03-27 09:31:55 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (ec38d404-1c4f-46fb-a279-9c2d18b49fd7)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6af1b1ae
+2026-03-27 09:31:55 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3/10, idle=3/5, active=0, waiting=0)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (aa0692ee-bcd8-4815-9382-6f171f45ebf9)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (aa0692ee-bcd8-4815-9382-6f171f45ebf9)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@56cd6563
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4/10, idle=4/5, active=0, waiting=0)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Attempting to create/setup new connection (0bbc280a-a284-475c-b67d-5cd718c40a60)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Established new connection (0bbc280a-a284-475c-b67d-5cd718c40a60)
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@22b0fe44
+2026-03-27 09:31:55 [HikariPool-1:connection-adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:31:56 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-27 09:31:56 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 23.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-27 09:31:57 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-27 09:31:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-27 09:31:57 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-27 09:31:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-27 09:31:58 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 23 mappings in 'requestMappingHandlerMapping'
+2026-03-27 09:31:58 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-03-27 09:31:58 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-27 09:31:58 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-27 09:31:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.HelloSpringbootApplication - Started HelloSpringbootApplication in 8.341 seconds (process running for 8.894)
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=userPreserveJob]] launched with the following parameters: [{}]
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╔══════════════════════════════════════════════════════════════╗
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║                    JOB 开始执行                               ║
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╠══════════════════════════════════════════════════════════════╣
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ Job名称        : userPreserveJob
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ Job实例ID      : 40
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ Job执行ID      : 1220
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ Job参数        : {}
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 开始时间       : 2026-03-27 09:31:59
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 执行线程       : restartedMain
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╚══════════════════════════════════════════════════════════════╝
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.batch.core.job.SimpleStepHandler - Step already complete or not restartable, so no action to execute: StepExecution: id=920, version=3, name=userPreserveStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0, readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╔══════════════════════════════════════════════════════════════╗
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║                    JOB 执行完成                               ║
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╠══════════════════════════════════════════════════════════════╣
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ Job名称        : userPreserveJob
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ Job执行ID      : 1220
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 执行状态       : COMPLETED
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 退出码         : NOOP
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 开始时间       : 2026-03-27 09:31:59
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 结束时间       : 2026-03-27 09:31:59
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 执行时长       : 0分 0秒 26毫秒
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╠══════════════════════════════════════════════════════════════╣
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 【执行统计】
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 总读取数       : 0
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 总写入数       : 0
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 总跳过数       : 0
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 总提交数       : 0
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╠══════════════════════════════════════════════════════════════╣
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ║ 【Step详情】
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ╚══════════════════════════════════════════════════════════════╝
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.c.A.UserPreserveJobListener - ✅ Job [userPreserveJob] 执行成功！共处理 0 条数据
+2026-03-27 09:31:59 [restartedMain] INFO  o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=userPreserveJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 26ms
+2026-03-27 09:31:59 [restartedMain] INFO  c.e.h.HelloSpringbootApplication - INFO 级别日志测试 - 应用启动成功
+2026-03-27 09:31:59 [restartedMain] WARN  c.e.h.HelloSpringbootApplication - WARN 级别日志测试
+2026-03-27 09:31:59 [restartedMain] ERROR c.e.h.HelloSpringbootApplication - ERROR 级别日志测试
+2026-03-27 09:32:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:32:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:32:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:32:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:32:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:32:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:33:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:33:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:33:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:33:39 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6af1b1ae is alive
+2026-03-27 09:33:45 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1a6b2290 is alive
+2026-03-27 09:33:48 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@56cd6563 is alive
+2026-03-27 09:33:52 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@2ecf11b3 is alive
+2026-03-27 09:33:54 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@22b0fe44 is alive
+2026-03-27 09:33:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:33:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:33:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:34:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:34:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:34:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:34:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:34:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:34:55 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:35:22 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6af1b1ae is alive
+2026-03-27 09:35:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:35:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After  cleanup stats (total=5/10, idle=5/5, active=0, waiting=0)
+2026-03-27 09:35:25 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2026-03-27 09:35:35 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1a6b2290 is alive
+2026-03-27 09:35:40 [HikariPool-1:housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@56cd6563 is alive
